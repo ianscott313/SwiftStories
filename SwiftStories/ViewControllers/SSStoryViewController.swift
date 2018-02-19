@@ -35,7 +35,13 @@ class SSStoryViewController : UIViewController, SSMomentViewDelegate {
     
     func didTapNext(sender: SSMomentView) {
         //cycle views
+        print("delegate responds")
         self.momentViews[viewingMoment].removeFromSuperview()
+        for subview in self.momentViews {
+            if subview == sender {
+                subview.removeFromSuperview()
+            }
+        }
     }
 
 }

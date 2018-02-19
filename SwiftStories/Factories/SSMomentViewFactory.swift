@@ -16,6 +16,7 @@ class SSMomentViewFactory {
         let momentView = SSMomentView(moment: moment)
         
         momentView.frame = UIScreen.main.bounds
+        momentView.isUserInteractionEnabled = true
         
         if moment.mediaType == .image {
             momentView.image = moment.image
@@ -30,6 +31,7 @@ class SSMomentViewFactory {
         let gestureView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width/2, height: UIScreen.main.bounds.height))
         let tap = UITapGestureRecognizer(target: view, action: #selector(view.nextTapped))
         gestureView.addGestureRecognizer(tap)
+        gestureView.isUserInteractionEnabled = true
         return gestureView
     }
     

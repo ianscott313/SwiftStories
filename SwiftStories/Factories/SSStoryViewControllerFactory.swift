@@ -15,6 +15,7 @@ class SSStoryViewControllerFactory {
         
         let storyViewController = SSStoryViewController(story: story)
         storyViewController.view.frame = UIScreen.main.bounds
+        storyViewController.view.isUserInteractionEnabled = true
         
         //create moment views for story
         for moment in story.moments {
