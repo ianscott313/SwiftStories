@@ -13,6 +13,18 @@
 		3C2D6AEC2039FEA0005A5E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D6AEB2039FEA0005A5E6B /* Assets.xcassets */; };
 		3C2D6AEF2039FEA0005A5E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D6AED2039FEA0005A5E6B /* LaunchScreen.storyboard */; };
 		3C2D6AFA2039FEA0005A5E6B /* SwiftStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6AF92039FEA0005A5E6B /* SwiftStoriesTests.swift */; };
+		3C2D6B082039FFC2005A5E6B /* SSMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B072039FFC2005A5E6B /* SSMoment.swift */; };
+		3C2D6B0A2039FFD4005A5E6B /* SSMomentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B092039FFD4005A5E6B /* SSMomentFactory.swift */; };
+		3C2D6B0C203A0BC1005A5E6B /* SSStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B0B203A0BC1005A5E6B /* SSStory.swift */; };
+		3C2D6B0E203A0BE9005A5E6B /* SSStoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B0D203A0BE9005A5E6B /* SSStoryFactory.swift */; };
+		3C2D6B13203A17FC005A5E6B /* IMG3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D6B10203A17FC005A5E6B /* IMG3.PNG */; };
+		3C2D6B14203A17FC005A5E6B /* IMG1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D6B11203A17FC005A5E6B /* IMG1.PNG */; };
+		3C2D6B15203A17FC005A5E6B /* IMG2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D6B12203A17FC005A5E6B /* IMG2.PNG */; };
+		3C2D6B1B203A2159005A5E6B /* SSStoryViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B1A203A2159005A5E6B /* SSStoryViewer.swift */; };
+		3C2D6B1D203A2514005A5E6B /* SSStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B1C203A2514005A5E6B /* SSStoryViewController.swift */; };
+		3C2D6B20203A3D29005A5E6B /* SSMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B1F203A3D29005A5E6B /* SSMomentView.swift */; };
+		3C2D6B22203A3D74005A5E6B /* SSMomentViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B21203A3D74005A5E6B /* SSMomentViewFactory.swift */; };
+		3C2D6B24203A44FB005A5E6B /* SSStoryViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B23203A44FB005A5E6B /* SSStoryViewControllerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 		3C2D6AF52039FEA0005A5E6B /* SwiftStoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2D6AF92039FEA0005A5E6B /* SwiftStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStoriesTests.swift; sourceTree = "<group>"; };
 		3C2D6AFB2039FEA0005A5E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2D6B072039FFC2005A5E6B /* SSMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMoment.swift; sourceTree = "<group>"; };
+		3C2D6B092039FFD4005A5E6B /* SSMomentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMomentFactory.swift; sourceTree = "<group>"; };
+		3C2D6B0B203A0BC1005A5E6B /* SSStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStory.swift; sourceTree = "<group>"; };
+		3C2D6B0D203A0BE9005A5E6B /* SSStoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStoryFactory.swift; sourceTree = "<group>"; };
+		3C2D6B10203A17FC005A5E6B /* IMG3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG3.PNG; sourceTree = "<group>"; };
+		3C2D6B11203A17FC005A5E6B /* IMG1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG1.PNG; sourceTree = "<group>"; };
+		3C2D6B12203A17FC005A5E6B /* IMG2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG2.PNG; sourceTree = "<group>"; };
+		3C2D6B1A203A2159005A5E6B /* SSStoryViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStoryViewer.swift; sourceTree = "<group>"; };
+		3C2D6B1C203A2514005A5E6B /* SSStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStoryViewController.swift; sourceTree = "<group>"; };
+		3C2D6B1F203A3D29005A5E6B /* SSMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMomentView.swift; sourceTree = "<group>"; };
+		3C2D6B21203A3D74005A5E6B /* SSMomentViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMomentViewFactory.swift; sourceTree = "<group>"; };
+		3C2D6B23203A44FB005A5E6B /* SSStoryViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStoryViewControllerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +83,8 @@
 		3C2D6AD82039FEA0005A5E6B = {
 			isa = PBXGroup;
 			children = (
-				3C2D6AE32039FEA0005A5E6B /* SwiftStories */,
+				3C2D6B042039FF0A005A5E6B /* SwiftStories */,
+				3C2D6AE32039FEA0005A5E6B /* Demo */,
 				3C2D6AF82039FEA0005A5E6B /* SwiftStoriesTests */,
 				3C2D6AE22039FEA0005A5E6B /* Products */,
 			);
@@ -74,9 +99,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C2D6AE32039FEA0005A5E6B /* SwiftStories */ = {
+		3C2D6AE32039FEA0005A5E6B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				3C2D6B0F203A1538005A5E6B /* Demo Data */,
 				3C2D6AE42039FEA0005A5E6B /* AppDelegate.swift */,
 				3C2D6AE62039FEA0005A5E6B /* ViewController.swift */,
 				3C2D6AE82039FEA0005A5E6B /* Main.storyboard */,
@@ -84,7 +110,7 @@
 				3C2D6AED2039FEA0005A5E6B /* LaunchScreen.storyboard */,
 				3C2D6AF02039FEA0005A5E6B /* Info.plist */,
 			);
-			path = SwiftStories;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		3C2D6AF82039FEA0005A5E6B /* SwiftStoriesTests */ = {
@@ -94,6 +120,72 @@
 				3C2D6AFB2039FEA0005A5E6B /* Info.plist */,
 			);
 			path = SwiftStoriesTests;
+			sourceTree = "<group>";
+		};
+		3C2D6B042039FF0A005A5E6B /* SwiftStories */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B17203A1E61005A5E6B /* Common */,
+				3C2D6B16203A1E45005A5E6B /* Factories */,
+				3C2D6B19203A2114005A5E6B /* ViewControllers */,
+			);
+			path = SwiftStories;
+			sourceTree = "<group>";
+		};
+		3C2D6B0F203A1538005A5E6B /* Demo Data */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B11203A17FC005A5E6B /* IMG1.PNG */,
+				3C2D6B12203A17FC005A5E6B /* IMG2.PNG */,
+				3C2D6B10203A17FC005A5E6B /* IMG3.PNG */,
+			);
+			path = "Demo Data";
+			sourceTree = "<group>";
+		};
+		3C2D6B16203A1E45005A5E6B /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B0D203A0BE9005A5E6B /* SSStoryFactory.swift */,
+				3C2D6B092039FFD4005A5E6B /* SSMomentFactory.swift */,
+				3C2D6B21203A3D74005A5E6B /* SSMomentViewFactory.swift */,
+				3C2D6B23203A44FB005A5E6B /* SSStoryViewControllerFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		3C2D6B17203A1E61005A5E6B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B1E203A3CFA005A5E6B /* Views */,
+				3C2D6B18203A1E6D005A5E6B /* Classes */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3C2D6B18203A1E6D005A5E6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B0B203A0BC1005A5E6B /* SSStory.swift */,
+				3C2D6B072039FFC2005A5E6B /* SSMoment.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C2D6B19203A2114005A5E6B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B1A203A2159005A5E6B /* SSStoryViewer.swift */,
+				3C2D6B1C203A2514005A5E6B /* SSStoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C2D6B1E203A3CFA005A5E6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D6B1F203A3D29005A5E6B /* SSMomentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +273,10 @@
 			files = (
 				3C2D6AEF2039FEA0005A5E6B /* LaunchScreen.storyboard in Resources */,
 				3C2D6AEC2039FEA0005A5E6B /* Assets.xcassets in Resources */,
+				3C2D6B13203A17FC005A5E6B /* IMG3.PNG in Resources */,
+				3C2D6B14203A17FC005A5E6B /* IMG1.PNG in Resources */,
 				3C2D6AEA2039FEA0005A5E6B /* Main.storyboard in Resources */,
+				3C2D6B15203A17FC005A5E6B /* IMG2.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2D6B0E203A0BE9005A5E6B /* SSStoryFactory.swift in Sources */,
+				3C2D6B1D203A2514005A5E6B /* SSStoryViewController.swift in Sources */,
+				3C2D6B24203A44FB005A5E6B /* SSStoryViewControllerFactory.swift in Sources */,
 				3C2D6AE72039FEA0005A5E6B /* ViewController.swift in Sources */,
+				3C2D6B22203A3D74005A5E6B /* SSMomentViewFactory.swift in Sources */,
+				3C2D6B1B203A2159005A5E6B /* SSStoryViewer.swift in Sources */,
 				3C2D6AE52039FEA0005A5E6B /* AppDelegate.swift in Sources */,
+				3C2D6B0A2039FFD4005A5E6B /* SSMomentFactory.swift in Sources */,
+				3C2D6B082039FFC2005A5E6B /* SSMoment.swift in Sources */,
+				3C2D6B20203A3D29005A5E6B /* SSMomentView.swift in Sources */,
+				3C2D6B0C203A0BC1005A5E6B /* SSStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DPZTFK3ZRL;
-				INFOPLIST_FILE = SwiftStories/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jumplabs.SwiftStories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DPZTFK3ZRL;
-				INFOPLIST_FILE = SwiftStories/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jumplabs.SwiftStories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
