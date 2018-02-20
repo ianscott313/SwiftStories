@@ -11,6 +11,7 @@ import UIKit
 
 protocol SSMomentViewDelegate: class {
     func didTapNext(sender: SSMomentView)
+    func didTapPrevious(sender: SSMomentView)
 }
 
 class SSMomentView : UIImageView {
@@ -29,8 +30,11 @@ class SSMomentView : UIImageView {
     }
     
     @objc func nextTapped() {
-        print("tap")
         self.delegate?.didTapNext(sender: self)
+    }
+    
+    @objc func previousTapped() {
+        self.delegate?.didTapPrevious(sender: self)
     }
     
 }

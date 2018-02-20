@@ -35,13 +35,18 @@ class SSStoryViewController : UIViewController, SSMomentViewDelegate {
     
     func didTapNext(sender: SSMomentView) {
         //cycle views
-        print("delegate responds")
-        self.momentViews[viewingMoment].removeFromSuperview()
-        for subview in self.momentViews {
-            if subview == sender {
-                subview.removeFromSuperview()
-            }
+        guard momentViews.index(of: sender) != 0 else {
+            self.dismiss(animated: true, completion: nil)
+            return
         }
+        sender.isHidden = true
     }
 
+    func didTapPrevious(sender: SSMomentView) {
+        let currentMoment = momentViews.index(of: sender)!
+        if momentViews.indices.contains(currentMoment + 1) {
+            let previousView = momentViews[currentMoment + 1]
+            previousView.isHidden = false
+        }
+    }
 }
