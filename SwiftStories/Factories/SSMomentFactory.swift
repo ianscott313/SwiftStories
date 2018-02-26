@@ -14,5 +14,9 @@ class SSMomentFactory: NSObject {
     func create(image: UIImage, duration: Double?) -> SSMoment {
         return SSMoment(image: image, duration: duration)
     }
+    
+    func create(url: URL) -> SSMoment {
+        return SSMoment(url: url)
+    }
 
 }
