@@ -8,10 +8,11 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class SSMomentViewFactory {
     
-    func create(storyViewController: SSStoryViewController, moment: SSMoment) -> SSMomentView {
+    func create(storyViewController: SSStoryViewController, moment: SSMoment, player: AVQueuePlayer) -> SSMomentView {
         
         let momentView = SSMomentView(moment: moment)
         
@@ -20,6 +21,10 @@ class SSMomentViewFactory {
         
         if moment.mediaType == .image {
             momentView.image = moment.image
+        } else {
+            let playerLayer = AVPlayerLayer(player: player)
+            playerLayer.frame = momentView.bounds
+            momentView.layer.addSublayer(playerLayer)
         }
         
         momentView.addSubview(createRightGestureView(momentView))

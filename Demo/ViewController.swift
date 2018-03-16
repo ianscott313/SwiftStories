@@ -19,8 +19,10 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         
+        let vid1 = Bundle.main.url(forResource: "revolucion-pan720", withExtension: "mov")
+        
         let storyFactory = SSStoryFactory()
-        let story = storyFactory.create(media: [UIImage(named: "IMG1.PNG")!, UIImage(named: "IMG2.PNG")!, UIImage(named: "IMG3.PNG")!])
+        let story = storyFactory.create(media: [UIImage(named: "IMG1.PNG")!, UIImage(named: "IMG2.PNG")!, UIImage(named: "IMG3.PNG")!, vid1 as AnyObject])
         
         print(story.moments.count);
         

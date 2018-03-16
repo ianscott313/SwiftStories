@@ -17,9 +17,14 @@ class SSStoryFactory: NSObject {
         for mediaItem in media {
             switch mediaItem {
             case is UIImage:
-                let newMoment = SSMoment(image: mediaItem as! UIImage, duration: nil)
-                moments.append(newMoment)
+                let imageMoment = SSMoment(image: mediaItem as! UIImage, duration: nil)
+                moments.append(imageMoment)
                 break
+            case is URL:
+                let videoMoment = SSMoment(url: mediaItem as! URL)
+                moments.append(videoMoment)
+                break
+            // TODO: add support for initializing image moment from URL type
             default:
                 break
             }
