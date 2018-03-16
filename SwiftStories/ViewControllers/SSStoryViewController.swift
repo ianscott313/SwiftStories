@@ -63,11 +63,19 @@ class SSStoryViewController : UIViewController, SSMomentViewDelegate {
     }
     
     func didPresentMomentView(momentView: SSMomentView) {
-        //TODO: decide between did or will present
+        // TODO: decide between using did or will present
     }
     
     func willPresentMomentView(momentView: SSMomentView) {
-        (momentView.moment.mediaType == .video) ? avPlayer.play() : avPlayer.pause()
-        //TODO: add seek to time:
+        if (momentView.moment.mediaType == .video) {
+            // TODO: add observer to playerItem to proceed after item finishes playing
+            let startTime = story.getVideoStartTimeOfMoment(moment: momentView.moment)
+            avPlayer.seek(to: CMTime(seconds: startTime, preferredTimescale: 600), completionHandler: { (finished) in
+                self.avPlayer.play()
+            })
+        } else {
+            self.avPlayer.pause()
+        }
     }
+    
 }

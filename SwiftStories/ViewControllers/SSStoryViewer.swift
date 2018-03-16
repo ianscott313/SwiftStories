@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 class SSStoryViewer {
-    
+    // TODO: add functionality for viewing multiple stories
 }

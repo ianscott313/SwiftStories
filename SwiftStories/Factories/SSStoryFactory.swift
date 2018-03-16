@@ -24,6 +24,7 @@ class SSStoryFactory: NSObject {
                 let videoMoment = SSMoment(url: mediaItem as! URL)
                 moments.append(videoMoment)
                 break
+            // TODO: add support for initializing image moment from URL type
             default:
                 break
             }

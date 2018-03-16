@@ -31,9 +31,14 @@ class SSStory: NSObject {
         return self.getVideoMoments().map { $0.playerItem! }
     }
     
-    func getStartTimeOfVideoMoment(moment: SSMoment) -> Double {
-        //TODO: iterate through moments and get start time of moment passed in
-        //add up duration of video moments before this one
-        return 0.00
+    func getVideoStartTimeOfMoment(moment: SSMoment) -> Double {
+        let videoMoments = moments.filter { $0.mediaType == .video }
+        let currentMoment = videoMoments.index(of: moment)!
+        if currentMoment == 0 {
+            return 0
+        } else {
+            let priorItems = videoMoments[0 ..< currentMoment]
+            return priorItems.map{ $0.duration }.reduce(0, +)
+        }
     }
 }

@@ -26,6 +26,7 @@
 		3C2D6B22203A3D74005A5E6B /* SSMomentViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B21203A3D74005A5E6B /* SSMomentViewFactory.swift */; };
 		3C2D6B24203A44FB005A5E6B /* SSStoryViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6B23203A44FB005A5E6B /* SSStoryViewControllerFactory.swift */; };
 		3C44E12E2043B7E1001368F1 /* revolucion-pan720.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3C44E12D2043B7E0001368F1 /* revolucion-pan720.mov */; };
+		3C44E1312044ECCB001368F1 /* SSAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C44E1302044ECCB001368F1 /* SSAVPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		3C2D6B21203A3D74005A5E6B /* SSMomentViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMomentViewFactory.swift; sourceTree = "<group>"; };
 		3C2D6B23203A44FB005A5E6B /* SSStoryViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSStoryViewControllerFactory.swift; sourceTree = "<group>"; };
 		3C44E12D2043B7E0001368F1 /* revolucion-pan720.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "revolucion-pan720.mov"; sourceTree = "<group>"; };
+		3C44E1302044ECCB001368F1 /* SSAVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAVPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		3C2D6B042039FF0A005A5E6B /* SwiftStories */ = {
 			isa = PBXGroup;
 			children = (
+				3C44E12F2044EC99001368F1 /* Utilities */,
 				3C2D6B17203A1E61005A5E6B /* Common */,
 				3C2D6B16203A1E45005A5E6B /* Factories */,
 				3C2D6B19203A2114005A5E6B /* ViewControllers */,
@@ -189,6 +192,14 @@
 				3C2D6B1F203A3D29005A5E6B /* SSMomentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3C44E12F2044EC99001368F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3C44E1302044ECCB001368F1 /* SSAVPlayer.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2D6B0E203A0BE9005A5E6B /* SSStoryFactory.swift in Sources */,
+				3C44E1312044ECCB001368F1 /* SSAVPlayer.swift in Sources */,
 				3C2D6B1D203A2514005A5E6B /* SSStoryViewController.swift in Sources */,
 				3C2D6B24203A44FB005A5E6B /* SSStoryViewControllerFactory.swift in Sources */,
 				3C2D6AE72039FEA0005A5E6B /* ViewController.swift in Sources */,
