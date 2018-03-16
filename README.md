@@ -1,7 +1,7 @@
 ## SwiftStories
 A swift library for creating and viewing media in story format much like snapchat 
 
-# Feature Roadmap
+### Feature Roadmap
 
 - [x] Ability to Create Story
 - [x] Ability to View Story
